@@ -1,0 +1,24 @@
+* {
+    background-color: rgb(168, 248, 20);
+    font-family: Arial, Helvetica, sans-serif
+}
+#header {
+    color: rgb(250, 4, 209);
+    height: 50px;
+    font-size: 75px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+li {
+    text-align: left;
+    color: coral;
+    font-size: larger;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+p {
+    text-align: center;
+}    
+

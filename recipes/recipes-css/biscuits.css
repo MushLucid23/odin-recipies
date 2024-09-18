@@ -1,0 +1,35 @@
+* {
+    background-color: rgb(168, 248, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: rgb(223, 67, 10);
+    font-weight: bold;
+}
+
+#header {
+    color: rgb(250, 4, 209);
+    height: 50px;
+    font-size: 75px;
+    letter-spacing: 0px;
+}
+.info {
+    color: rgb(250, 4, 209);
+}
+
+ul, ol {
+    color: brown;
+    font-size: large;
+}
+
+.image {
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+        padding-top: 15%;
+        padding-bottom: 5%;
+        
+}
