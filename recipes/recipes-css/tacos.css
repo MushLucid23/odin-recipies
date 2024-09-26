@@ -1,37 +1,52 @@
 * {
-    background-color: rgb(168, 248, 20);
-    font-family: Arial, Helvetica, sans-serif
-}
-
-h1, h2, p {
+    /*border: solid 2px red;*/
+    box-sizing: border-box;
     text-align: center;
-    color: rgb(223, 67, 10);
-    font-weight: bold;
-}
-
-.image {
-    display: block;
-    margin: 0 auto;
-    width: 25%;
-    border-width: 10px;
-    border-color: blue;
-    border-style: ridge;
-}
-
-#header {
-    color: rgb(250, 4, 209);
-    height: 50px;
-    font-size: 75px;
-}
-.info {
-    color: rgb(250, 4, 209);
-}
-
-ul, ol {
-    color: brown;
-    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-color: chartreuse;
     
 }
 
+.image {
+    width: auto;
+    height: 300px;
+    padding-top: 10px;
+   }
 
+h1 {
+    font-size: 45px;
+    background-color: darkmagenta;
+    padding-bottom: 8px;
+    
+}
 
+li {
+    list-style: none; /*remember this takes away list markers!*/
+    font-size: larger;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.info {
+    font-size: 30px;
+    color: blue;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.description, p {
+    padding: 10px;
+}
+
+ol {
+    padding-bottom: 20px;
+}
+
+.description {
+    color: rgb(255, 115, 0);
+}
+
+.info.steps {
+    margin-top: 10px;
+}
